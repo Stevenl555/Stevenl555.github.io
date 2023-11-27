@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+	<h1>Sigh-up Form for Food Blog</h1>
+	<p>This from will be used to create an account and collect information for Visitois to the Food Blog</p>
+	
+	<form action="https://handlers.education.launchcode.org/request-parrot" method="POST">
+		
+	<label for="firstname">First Name:</label>
+	<input name="firstname" type="text" id="firstname">
+	<br>
+	<label for="lastname">Last Name:</label>
+	<input name="lastname" type="text" required="required" id="lastname">
+	<br>
+	<label for="username">Username:</label>
+	<input name="username" type="text" required="required" id="username" pattern="[A-Za-z]{6,10}">  
+	<br>
+	<label for="password">Password:</label>
+	<input name="password" type="password" required="required" id="password" pattern="[0-9A-Za-z]{6,10}">
+	<br>
+	<label for="Date">Date of Birth:</label>
+	<input name="Date" type="Date" required="required" id="Date">
+	<br>
+	<label for="tel">Phone Number:</label>
+	<input name="tel" type="tel" required="required" id="tel" pattern=>
+	<br>
+	<label for="email">Email:</label>
+    <input name="email" type="text" required="required" id="email">
+	<br>
+	<label for="website"> Website:</label>
+	<input name="website" type="url" id="website" value="Personal website...">
+	<br>
+	<h4>Interest Career/Majors</h4>
+	<input type="checkbox" id="vehicle1" name="vehicle1" value="car">
+  	<label for="vehicle1">Accounting/ Business</label>
+	<br>
+	<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  	<label for="vehicle2"> Medical professionalism Nursing etc</label>
+	<br>
+	<input type="checkbox" id="vehicle3" name="vehicle3" value="Subway">
+  <label for="vehicle3"> Law Enforcement </label>
+	<br>
+	<br>
+ <p>Where did you hear about this site?</p>
+	<input type="radio" id="SM" name="fav_language" value="SM">
+  <label for="SM">Social Media</label>
+  
+<input type="radio" id="WS" name="fav_language" value="WS">
+	<label for="WS">Website</label>	
+	
+	<input type="radio" id="BFF" name="fav_language" value="BFF">
+	<label for="BFF">Friend</label>
+	
+	<input type="radio" id="News" name="fav_language" value="News">
+	<label for="News">News</label>
+	<br>
+	<input type="submit"><input type="reset">
+	<br>
+	
+	
+		
+		
+		
+</form>
+	
+</body>
+</html>
